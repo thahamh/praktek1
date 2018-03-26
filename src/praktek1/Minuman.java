@@ -10,19 +10,22 @@ package praktek1;
  * @author ASUS X456U
  */
 public class Minuman {
-    string warna;
-    string kemasan;
-    string jumlah_isi;
-    string warna_kemasan;
-    string harga;
+    String warna;
+    String kemasan;
+    String jumlahisi;
+    String warnakemasan;
+    String harga;
+    String SPACI;
     
     
-    void cetakInfo(){
-        system.out.prinln("Warna            :"+warna);
-        system.out.prinln("Kemasan          :"+kemasan);
-        system.out.prinln("Jumlah_isi       :"+jumlah_isi);
-        system.out.prinln("warna_Kemasan    :"+warna_kemasan);
-        system.out.prinln("Harga            :"+harga);
+    void CaraPengolahan(){
+        System.out.println("Warna            :"+warna);
+        System.out.println("Kemasan          :"+kemasan);
+        System.out.println("Jumlah_isi       :"+jumlahisi);
+        System.out.println("warna_Kemasan    :"+warnakemasan);
+        System.out.println("Harga            :"+harga);
+        System.out.println(""+SPACI);
+        
         
     }
 }
